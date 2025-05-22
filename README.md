@@ -1,5 +1,5 @@
 # PRODIGY_CS_01
-PRODIGY_CY_01: Caesar Cipher with Brute-Force Decryption
+PRODIGY_CS_01: Caesar Cipher  Decryption
 Hey there! Welcome to my first task for the PRODIGY Cyber Security track (Task 01). I built a Python program that implements the Caesar Cipher, a classic encryption technique, and added a cool brute-force decryption feature to crack encrypted messages. This project is all about exploring basic cryptography concepts, which are super relevant to Cyber Security. Let me walk you through what I did, how it works, and how you can try it out!
 What’s the Caesar Cipher?
 The Caesar Cipher is one of the oldest encryption methods, named after Julius Caesar, who used it to secure his messages. It’s a type of substitution cipher where each letter in your message (plaintext) is shifted by a fixed number of positions in the alphabet to create an encrypted message (ciphertext). For example:
@@ -32,7 +32,7 @@ Decryption: Input “Khoor” with a shift of 3 → Output “Hello”.
 Brute-Force: Input “Khoor” → Outputs all 25 possible decryptions, one of which is “Hello” (at shift 3).
 
 Repository Structure
-PRODIGY_CY_01/
+PRODIGY_CS_01/
 ├── src/
 │   └── caesar_cipher.py  # My Python script
 ├── README.md             # This file, explaining my work
@@ -41,10 +41,10 @@ PRODIGY_CY_01/
 How to Set It Up
 Want to try it out? Here’s how:
 
-Clone the Repository:git clone https://github.com/[YourUsername]/PRODIGY_CY_01.git
+Clone the Repository:git clone https://github.com/Dhilip-7/PRODIGY_CS_01.git
 
 
-Navigate to the Folder:cd PRODIGY_CY_01
+Navigate to the Folder:cd PRODIGY_CS_01
 
 
 Check for Python:
