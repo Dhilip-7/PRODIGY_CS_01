@@ -34,9 +34,9 @@ Brute-Force: Input “Khoor” → Outputs all 25 possible decryptions, one of w
 Repository Structure
 PRODIGY_CS_01/
 ├── src/
-│   └── caesar_cipher.py  # My Python script
-├── README.md             # This file, explaining my work
-└── LICENSE               # MIT License
+│   └── caesar_cipher.py   # My Python script
+├── README.md              # This file, explaining my work
+└── LICENSE                # MIT License
 
 How to Set It Up
 Want to try it out? Here’s how:
