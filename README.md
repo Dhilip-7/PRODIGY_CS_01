@@ -28,15 +28,27 @@ Clean Code: I split the logic into functions (caesar_cipher for encrypt/decrypt,
 Here’s an example of how it works:
 
 Encryption: Input “Hello” with a shift of 3 → Output “Khoor”.
+
+
 Decryption: Input “Khoor” with a shift of 3 → Output “Hello”.
+
+
 Brute-Force: Input “Khoor” → Outputs all 25 possible decryptions, one of which is “Hello” (at shift 3).
 
+
+
 Repository Structure
+
+
 PRODIGY_CS_01/
+
 ├── src/
-│   └── caesar_cipher.py   # My Python script
-├── README.md              # This file, explaining my work
-└── LICENSE                # MIT License
+
+│ └── caesar_cipher.py   # My Python script
+
+├── README.md   # This file, explaining my work
+
+
 
 How to Set It Up
 Want to try it out? Here’s how:
@@ -48,7 +60,7 @@ Navigate to the Folder:cd PRODIGY_CS_01
 
 
 Check for Python:
-You need Python 3.x. Run python --version or python3 --version to confirm.
+You need Python 3. Run python --version or python3 --version to confirm.
 
 
 Run the Program:python src/caesar_cipher.py
@@ -72,25 +84,43 @@ Example Run:
 Caesar Cipher Program
 --------------------
 Choose mode:
+
 1. Encrypt
-2. Decrypt
-3. Brute-Force
+   
+3. Decrypt
+   
+4. Brute-Force
+
 Enter mode (1/2/3): 1
+
 Enter the message: Cyber Security
+
 Enter the shift value (1-25): 5
+
 Result: Ijhmw Xjhlwynb
 
-Brute-Force Example:
+***** BRUTE-FORCE EXAMPLE :
+
 Enter mode (1/2/3): 3
+
 Enter the message: Ijhmw Xjhlwynb
+
 Brute-Force Decryption Results:
+
 ------------------------------
 Shift 1: Hignv Wiguwxma
+
+
 Shift 2: Gfimu Vhftvwlz
+
 ...
 Shift 5: Cyber Security
+
 ...
 Shift 25: Jkiox Ykimxzos
+
+
+_______________________________
 
 What I Learned
 
@@ -111,5 +141,5 @@ The shift value is limited to 1–25 to avoid redundant shifts (a shift of 0 or 
 Brute-force decryption is a simple way to crack the cipher, showing why key length and complexity matter in Cyber Security.
 
 About Me
-I’m @dhilip-7, and this is my first task in the PRODIGY Cyber Security track. I had fun building this and learning how encryption ties into protecting data. More to come as I dive deeper into Cyber Security!
+I’m Dhilip, and this is my first task in the PRODIGY Cyber Security track. I had fun building this and learning how encryption ties into protecting data. More to come as I dive deeper into Cyber Security!
 
